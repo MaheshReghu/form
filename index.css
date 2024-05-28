@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-text-color:#2B3674;
+    --secondary-text-color:#4318FF;
+    --background-color: #E9EDF2;
+
+    
+}
+ 
+.header h1{
+    color: var(--primary-text-color);
+}
+.upload i{
+    color: var(--secondary-text-color);
+}
+.upload  h1{
+    color: var(--secondary-text-color);
+}
+.upload p{
+    color: #8F9BBA;
+}
+.row .col label{
+    color: var(--primary-text-color);
+    font-weight: 600 !important;
+}
+ .about .pb-5{
+    padding-bottom:  7rem !important;
+}
+.footer label{
+    padding: 20px;
+    border-radius: 15px;
+}
+.footer .cancel{
+    background-color:#FAF9FF;
+    color: var(--primary-text-color);
+}
+.footer button{
+    border-radius: 15px;
+    border: none;
+}
+.card{
+    border-radius: 15px;
+}
+.container-fluid{
+    background-color:#E9EDF2;
+}
+.alert-warning, .upload{
+    border-radius: 15px;
+}
+.form-control{
+    border-radius: 15px;
+}
+.form-select{
+    border-radius: 15px;
+}
+.color input{
+    height: 34px;
+}
+.identity{
+    display: flex;
+    gap: 15px;
+}
+.upload{
+    background-color: #FAFCFE;
+}
+.check-template label{
+    color: black;
+}

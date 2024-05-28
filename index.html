@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <form>
+        <div class="container-fluid">
+            <!--  -->
+            <div class="row pt-3">
+                <!-- card-1 -->
+                <div class=" card col border-0 mx-3">
+                    <div class="card-details">
+                        <div class="header">
+                            <h1 class="fs-4 ps-3 pt-3">Basic Details</h1>
+                        </div>
+                        <div class="card-body">
+                            <div class="upload border text-center">
+                                <i class="bi bi-upload fs-5"></i>
+                                <h1 class="fs-5">Upload Image</h1>
+                                <p>PNG, JPG files are allowed</p>
+                            </div>
+                            <!--  -->
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <label class="salutation fw-bold">Salutation
+                                        <span class="star text-danger">*</span>
+                                    </label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Select</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <label class="first-name fw-bold">First Name
+                                        <span class="star text-danger">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="first name">
+                                </div>
+                                <div class="col">
+                                    <label class="last-name fw-bold">Last Name
+                                        <span class="star text-danger">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="last name">
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <label class="email fw-bold">Email Address
+                                        <span class="star text-danger">*</span>
+                                    </label>
+                                    <input type="email" class="form-control" placeholder="enter email">
+                                </div>
+                                <div class="col">
+                                    <label class="mobile-number fw-bold">Mobile Number
+                                        <span class="star text-danger">*</span>
+                                    </label>
+                                    <input type="number" class="form-control" placeholder="enter number">
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <label class="dob fw-bold">Date of Birth
+                                        <span class="star text-danger">*</span>
+                                    </label>
+                                    <input type="date" class="form-control" placeholder="select date of birth">
+                                </div>
+                                <div class="col">
+                                    <label class="gender fw-bold">Gender
+                                        <span class="star text-danger">*</span>
+                                    </label>
+                                    <div class="identity ">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadio" id="flexRadio1">
+                                            <label class="form-check-label" for="flexRadio1">Male</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadio" id="flexRadio2" checked>
+                                            <label class="form-check-label" for="flexRadio2">Female</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <label class="address fw-bold">Address
+                                        <span class="star text-danger">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="enter address">
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <label class="country fw-bold">country
+                                        <span class="star text-danger">*</span>
+                                    </label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Select</option>
+
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <label class="state fw-bold">State
+                                        <span class="star text-danger">*</span>
+                                    </label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Select</option>
+
+                                    </select>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <label class="pin fw-bold">City
+                                        <span class="star text-danger">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="enter city">
+                                </div>
+                                <div class="col">
+                                    <label class="pin fw-bold">Pin/Zip
+                                        <span class="star text-danger">*</span>
+                                    </label>
+                                    <input type="number" class="form-control" placeholder="enter zip/pin">
+                                </div>
+                            </div>
+                            <!--  -->
+                        </div>
+                    </div>
+                </div>
+                <!-- card-2 -->
+                <div class=" card col border-0 mx-3">
+                    <div class="card-details">
+                        <div class="header">
+                            <h1 class="fs-4 ps-3 pt-3">Advanced Details</h1>
+                        </div>
+                        <div class="card-body">
+                            <div class="alert alert-warning ">
+                                <h1 class="fs-5">Sample warning messages - alert</h1>
+                                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet autem at magni ullam.
+                                    Laborum molestias, eum suscipit vero sit adipisci earum dolor doloribus itaque
+                                    exercitationem nesciunt.</p>
+                            </div>
+                            <!--  -->
+                            <div class="row px-3">
+                                <div class="col">
+                                    <label class="height fw-bold">Height
+                                        <span class="star text-danger">*</span>
+                                    </label>
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="range" class="form-range">
+                                        </div>
+                                        <div class="col-4">
+                                            <input  class="form-control fw-bold fs-6" placeholder="160 cm">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <label class="height fw-bold">Weight
+                                        <span class="star text-danger">*</span>
+                                    </label>
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="range" class="form-range">
+                                        </div>
+                                        <div class="col-4">
+                                            <input class="form-control fw-bold" placeholder="68 kg">   
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="row pt-3">
+                                <div class=" color col">
+                                    <label class="color fw-bold">Choose color
+                                        <span class="star text-danger">*</span>
+                                    </label>
+                                    <input type="color" class="form-control" value="#CB5D9F">
+                                </div>
+                                <div class="col">
+                                    <label class="template fw-bold">Choose Template
+                                        <span class="star text-danger">*</span>
+                                    </label>
+                                    <div class="check-template text-nowrap">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox"  id="checkbox1">
+                                            <label class="form-check-label " for="checkbox1">Template 1</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox"  id="checkbox2" 4>
+                                            <label class="form-check-label " for="checkbox2">Template 2</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox"  id="checkbox3" >
+                                            <label class="form-check-label " for="checkbox3">Template 3</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="row pt-3">
+                                <div class="col">
+                                    <label class="qualification fw-bold">Qualification</label>
+                                    <input class="form-control" type="text" placeholder="enter qualification">
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="row">
+                                <div class="col  pt-3 about">
+                                    <label class="about fw-bold">About Your Self
+                                        <span class="star text-danger">*</span>
+                                    </label>
+                                    <input class="form-control pb-5" type="text" placeholder="enter here...">
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="row pt-3">
+                                <div class="col text-nowrap">
+                                    <input type="checkbox">
+                                    <label class="terms-condition fw-bold">I Accept Terms & Conditions</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer -->
+            <div class="row  my-3 rounded">
+                <div class="col p-0">
+                    <div class="footer mx-3 my-3">
+                        <label class="form-control text-end P-5 border-0">
+                            <button class="cancel p-2 ">Cancel</button>
+                            <button class="btn-primary p-2 ">Save Changes</button>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+
+        </div>
+    </form>
+</body>
