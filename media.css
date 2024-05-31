@@ -1,0 +1,28 @@
+@media(max-width:1290px){
+    .cards{
+        flex-direction: column;
+    }
+}
+@media(max-width:700px){
+    .colors{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:600px){
+    .username{
+        display: flex;
+        flex-direction: column;
+    }
+    .personal-details .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .advanced-details {
+        display: flex;
+        flex-direction: column;   
+    }
+    .col{
+        padding-top: 12px;
+    }
+}
