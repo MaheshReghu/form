@@ -5,8 +5,12 @@
 
 :root {
     --primary-text-color: #2B3674;
-    --secondary-text-color: #4318FF;
+    --secondary-color: #4318FF;
     --background-color: #E9EDF2;
+    --paragraph-color:#8F9BBA;
+    --upload-bg-color: #FAFCFE;
+    --border-color:#B2BAD0;
+    --button-bg-color:#FAF9FF;
 }
 .container{
     max-width: 1440px;
@@ -15,15 +19,105 @@
     display: flex;
     gap: 30px;
 }
-
 .templates {
     display: flex;
     justify-content: space-around;
 }
 .about .pb-5{
-    padding-bottom:  7rem !important;
+    padding-bottom:  9rem !important;
 }
 .cards{
     display: flex;
     gap: 20px;
 }
+.container-fluid{
+    background-color: var(--background-color);
+}
+.form-control{
+    border-radius: 14px;
+}
+.form-select{
+    border-radius: 14px;
+}
+.upload-sec{
+    border-radius: 12px;
+    background-color: var(--upload-bg-color);
+    border: var(--border-color) 2px dashed;
+}
+.upload-sec h5{
+    color: var(--secondary-color);
+}
+.upload-sec span{
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 24;
+  color: var(--secondary-color);
+}
+.upload-sec p{
+    color: var(--paragraph-color);
+    font-weight: 500;
+    font-size: 12px;
+}
+.alert-warning{
+    border-radius: 12px;
+}
+.colors .form-control{
+    height: 36px;
+}
+.col label{
+    color: var(--primary-text-color);
+    line-height: 14px;
+    font-size: 14px;
+}
+.heading h4{
+    color: var(--primary-text-color);
+}
+.fw-bold {
+    font-weight: 600 !important;
+}
+.form-control:hover{
+    border-color: var(--secondary-color);
+}
+.form-select:hover{
+    border-color: var(--secondary-color); 
+}
+footer button{
+    border-radius: 16px;
+    line-height: 14px;
+    font-size: 14px;
+}
+.save-btn{
+    background-color: var(--secondary-color);
+    color: #ffff;
+}
+.cancel-btn{
+    background-color: var(--button-bg-color);
+    color: var(--primary-text-color);
+}
+.card{
+    border-radius: 16px;
+}
+input {
+    box-shadow: none !important;
+}
+select{
+    box-shadow: none !important;
+}
+.form-check-input[type="radio"]:checked{
+   border: 1px solid var(--secondary-color);
+   background-color: var(--secondary-color)!important;
+}
+input[type="range"]{
+    color: var(--secondary-color)
+} 
+input[type="checkbox"]:checked{
+    background-color: var(--secondary-color);
+}
+.form-check-input[type=checkbox] {
+    border-radius: 2px;
+}
+ /* #accent{
+   accent-color: #4318FF;
+} */

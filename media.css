@@ -25,4 +25,12 @@
     .col{
         padding-top: 12px;
     }
+    .about .pb-5{
+        padding-bottom:  6rem !important;
+    }
+}
+@media(max-width:370px){
+    .templates{
+        flex-direction: column;
+    }
 }
