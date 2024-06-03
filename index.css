@@ -110,15 +110,13 @@ select{
    border: 1px solid var(--secondary-color);
    background-color: var(--secondary-color)!important;
 }
-input[type="range"]{
-    color: var(--secondary-color)
-} 
+input[type='range']::-webkit-slider-thumb{
+    background-color:var(--secondary-color);
+}
 input[type="checkbox"]:checked{
     background-color: var(--secondary-color);
 }
 .form-check-input[type=checkbox] {
     border-radius: 2px;
 }
- /* #accent{
-   accent-color: #4318FF;
-} */
+ 
