@@ -7,6 +7,7 @@
     .colors{
         display: flex;
         flex-direction: column;
+        gap: 18px;
     }
 }
 @media(max-width:600px){
@@ -22,6 +23,9 @@
         display: flex;
         flex-direction: column;   
     }
+    .colors{
+        gap: 0px;
+    }
     .col{
         padding-top: 12px;
     }
@@ -31,7 +35,6 @@
     .pt-4{
         padding-top: 0rem !important;
     }
-    
 }
 @media(max-width:370px){
     .templates{
