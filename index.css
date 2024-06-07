@@ -67,7 +67,10 @@ body{
     align-items: center;
 }
 .colors .form-control{
-    height: 36px;
+    height: 50px;
+}
+input[type="color"]{
+    border-radius: 12px !important;
 }
 .col label{
     color: var(--primary-text-color);
@@ -105,9 +108,11 @@ footer button{
 }
 input {
     box-shadow: none !important;
+    height: 50px;
 }
 select{
     box-shadow: none !important;
+    height: 50px;
 }
 .form-check-input[type="radio"]:checked{
    border: 1px solid var(--secondary-color);
