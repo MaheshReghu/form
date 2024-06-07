@@ -30,7 +30,7 @@
     display: flex;
     gap: 20px;
 }
-.container-fluid{
+form{
     background-color: var(--background-color);
 }
 .form-control{
@@ -62,6 +62,9 @@
 }
 .alert-warning{
     border-radius: 12px;
+}
+.advanced-details .col .row{
+    align-items: center;
 }
 .colors .form-control{
     height: 36px;
@@ -115,8 +118,8 @@ input[type='range']::-webkit-slider-thumb{
 }
 input[type="checkbox"]:checked{
     background-color: var(--secondary-color);
+    border: var(--secondary-color);
 }
 .form-check-input[type=checkbox] {
     border-radius: 2px;
 }
-

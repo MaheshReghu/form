@@ -28,6 +28,9 @@
     .about .pb-5{
         padding-bottom:  6rem !important;
     }
+    .pt-4{
+        padding-top: 0rem !important;
+    }
 }
 @media(max-width:370px){
     .templates{
